@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: helloworld
+  labels:
+    app.name: postgresql-2
+spec:
+  template: #template will be use for creating pod
+    spec:
+      containers:
+        - name: busybox #name of the container 
+          image: busybox
+          command: ["echo","k8s"]  
+      restartPolicy: Never
