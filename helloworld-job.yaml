@@ -3,7 +3,7 @@ kind: Job
 metadata:
   name: helloworld
   labels:
-    app.name: postgresql-2
+    app.name: postgresql-3
 spec:
   template: #template will be use for creating pod
     spec:
