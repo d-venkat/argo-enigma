@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: helloworld-1
+  name: helloworld-2
   labels:
     app.name: postgresql-4
 spec:
